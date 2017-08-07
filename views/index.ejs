@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <img src="images/tcs.jpeg"></img>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    
+    </br>
+    <form name="sample" method="post" action="/submitInfo">
+    <table>
+    <tr>
+    
+    <td>
+    Enter your Name
+    </td>
+    <td>
+    <input type="text" name="name" id="name"></input>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    Enter your TCS ID 
+    </td>
+    <td>
+    <input type="text" name="empid" id="empid"></input>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <input type="submit" name="info" value="SubmitData"></input>
+    </td>
+    </tr>
+    </table>
+  </body>
+</html>
